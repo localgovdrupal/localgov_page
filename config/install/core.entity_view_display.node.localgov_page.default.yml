@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.localgov_page.localgov_page_summary
     - node.type.localgov_page
   module:
-    - field_formatter_class
     - layout_paragraphs
     - user
 _core:

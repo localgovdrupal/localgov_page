@@ -7,7 +7,7 @@ dependencies:
     - paragraphs.paragraphs_type.localgov_image
     - paragraphs.paragraphs_type.localgov_link
     - paragraphs.paragraphs_type.localgov_text
-    - paragraphs.paragraphs_type.page_section
+    - paragraphs.paragraphs_type.localgov_page_section
   module:
     - entity_reference_revisions
 id: node.localgov_page.localgov_page_content
