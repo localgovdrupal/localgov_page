@@ -8,7 +8,6 @@ dependencies:
     - field.field.node.localgov_page.localgov_page_summary
     - node.type.localgov_page
   module:
-    - field_formatter_class
     - user
 _core:
   default_config_hash: Ck5AcE4gmS8FKnv2NMPpUVIm84HwTFk-SuMcLsW3ShA
@@ -23,9 +22,7 @@ content:
     settings:
       view_mode: responsive_banner
       link: false
-    third_party_settings:
-      field_formatter_class:
-        class: ''
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:
