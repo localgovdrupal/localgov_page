@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.localgov_page.localgov_page_banner
+    - field.field.node.localgov_page.localgov_page_content
+    - field.field.node.localgov_page.localgov_page_summary
+    - node.type.localgov_page
+  module:
+    - layout_paragraphs
+    - text
+    - user
+_core:
+  default_config_hash: PmZuFJ6DVMQr6M6OkBLh1vQFe967laJikUKLdYdGHQY
+id: node.localgov_page.search_index
+targetEntityType: node
+bundle: localgov_page
+mode: search_index
+content:
+  localgov_page_content:
+    type: layout_paragraphs
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  localgov_page_summary:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  links: true
+  localgov_page_banner: true
