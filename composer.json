@@ -5,7 +5,11 @@
     "homepage": "https://github.com/localgovdrupal/localgov_page",
     "license": "GPL-2.0-or-later",
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "drupal/layout_paragraphs": "^1.0",
+        "localgovdrupal/localgov_core": "^2.0",
+        "localgovdrupal/localgov_paragraphs": "^2.0"
+    },
     "extra": {
         "enable-patching": true,
         "composer-exit-on-patch-failure": true,
