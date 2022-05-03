@@ -27,7 +27,7 @@ settings:
       localgov_image: localgov_image
       localgov_link: localgov_link
       localgov_text: localgov_text
-      page_section: page_section
+      localgov_page_section: localgov_page_section
     negate: 0
     target_bundles_drag_drop:
       from_library:

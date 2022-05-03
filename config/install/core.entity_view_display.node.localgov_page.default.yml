@@ -23,9 +23,7 @@ content:
     settings:
       view_mode: responsive_banner
       link: false
-    third_party_settings:
-      field_formatter_class:
-        class: ''
+    third_party_settings: {  }
     weight: 0
     region: content
   localgov_page_content:
