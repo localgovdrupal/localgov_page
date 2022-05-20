@@ -11,11 +11,11 @@ dependencies:
     - paragraphs.paragraphs_type.localgov_image
     - paragraphs.paragraphs_type.localgov_link
     - paragraphs.paragraphs_type.localgov_media_with_text
+    - paragraphs.paragraphs_type.localgov_page_section
     - paragraphs.paragraphs_type.localgov_quote
     - paragraphs.paragraphs_type.localgov_table
     - paragraphs.paragraphs_type.localgov_text
     - paragraphs.paragraphs_type.localgov_video
-    - paragraphs.paragraphs_type.page_section
   module:
     - entity_reference_revisions
 id: node.localgov_page.localgov_page_content
@@ -39,11 +39,11 @@ settings:
       localgov_image: localgov_image
       localgov_link: localgov_link
       localgov_media_with_text: localgov_media_with_text
+      localgov_page_section: localgov_page_section
       localgov_quote: localgov_quote
       localgov_table: localgov_table
       localgov_text: localgov_text
       localgov_video: localgov_video
-      page_section: page_section
     negate: 0
     target_bundles_drag_drop:
       from_library:
@@ -129,7 +129,7 @@ settings:
         enabled: false
       localgov_page_section:
         weight: 64
-        enabled: false
+        enabled: true
       localgov_quote:
         weight: 63
         enabled: true
@@ -150,8 +150,5 @@ settings:
         enabled: true
       localgov_video:
         weight: 69
-        enabled: true
-      page_section:
-        weight: 70
         enabled: true
 field_type: entity_reference_revisions
