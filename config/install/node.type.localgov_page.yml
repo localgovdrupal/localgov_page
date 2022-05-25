@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies:
-  modules:
+  module:
     - menu_ui
 third_party_settings:
   menu_ui:
