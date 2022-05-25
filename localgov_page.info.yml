@@ -9,6 +9,7 @@ dependencies:
   - drupal:image
   - drupal:node
   - drupal:path
+  - drupal:menu_ui
   - drupal:text
   - field_group:field_group
   - layout_paragraphs:layout_paragraphs

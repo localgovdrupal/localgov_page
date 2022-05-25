@@ -1,7 +1,11 @@
 langcode: en
 status: true
-dependencies: {  }
-third_party_settings: {  }
+dependencies:
+  modules:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: [  ]
 name: Page
 type: localgov_page
 description: 'Page content that allows the building of rich content using Paragraphs.'
