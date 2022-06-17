@@ -6,8 +6,8 @@ dependencies:
     - node.type.localgov_page
     - paragraphs.paragraphs_type.localgov_accordion
     - paragraphs.paragraphs_type.localgov_call_out_box
+    - paragraphs.paragraphs_type.localgov_custom_menu_block
     - paragraphs.paragraphs_type.localgov_featured_teasers
-    - paragraphs.paragraphs_type.localgov_ia_block
     - paragraphs.paragraphs_type.localgov_image
     - paragraphs.paragraphs_type.localgov_link
     - paragraphs.paragraphs_type.localgov_media_with_text
@@ -34,13 +34,13 @@ settings:
     target_bundles:
       localgov_accordion: localgov_accordion
       localgov_call_out_box: localgov_call_out_box
+      localgov_custom_menu_block: localgov_custom_menu_block
       localgov_featured_teasers: localgov_featured_teasers
-      localgov_ia_block: localgov_ia_block
       localgov_image: localgov_image
       localgov_link: localgov_link
       localgov_media_with_text: localgov_media_with_text
-      localgov_page_section: localgov_page_section
       localgov_quote: localgov_quote
+      localgov_page_section: localgov_page_section
       localgov_table: localgov_table
       localgov_text: localgov_text
       localgov_video: localgov_video
@@ -76,6 +76,9 @@ settings:
       localgov_contact:
         weight: 45
         enabled: false
+      localgov_custom_menu_block:
+        weight: 48
+        enabled: true
       localgov_documents:
         weight: 46
         enabled: false
@@ -96,7 +99,7 @@ settings:
         enabled: true
       localgov_ia_block:
         weight: 52
-        enabled: true
+        enabled: false
       localgov_image:
         weight: 53
         enabled: true
@@ -151,4 +154,7 @@ settings:
       localgov_video:
         weight: 69
         enabled: true
+      page_section:
+        weight: 74
+        enabled: false
 field_type: entity_reference_revisions
