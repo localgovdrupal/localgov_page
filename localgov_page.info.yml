@@ -17,3 +17,4 @@ dependencies:
   - localgov_core:localgov_media
   - localgov_paragraphs:localgov_paragraphs
   - localgov_subsites_paragraphs:localgov_subsites_paragraphs
+  - responsive_preview:responsive_preview
