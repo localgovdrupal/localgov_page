@@ -18,3 +18,4 @@ dependencies:
   - localgov_paragraphs:localgov_paragraphs
   - localgov_subsites_paragraphs:localgov_subsites_paragraphs
   - responsive_preview:responsive_preview
+  - autosave_form:autosave_form
