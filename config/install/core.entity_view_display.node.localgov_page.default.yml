@@ -21,7 +21,7 @@ third_party_settings:
       weight: 2
       format_type: html_element
       format_settings:
-        classes: node__page-top
+        classes: full__page-top
         show_empty_fields: false
         id: ''
         element: div
@@ -40,7 +40,7 @@ third_party_settings:
       weight: 0
       format_type: html_element
       format_settings:
-        classes: node__banner
+        classes: full__banner
         show_empty_fields: false
         id: ''
         element: div
