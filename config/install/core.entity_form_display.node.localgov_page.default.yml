@@ -8,19 +8,25 @@ dependencies:
     - node.type.localgov_page
   module:
     - layout_paragraphs
-    - media_library
-    - text
+    - paragraphs
+_core:
+  default_config_hash: 5n68a59XgYB8X6k6JgpGhPsD8RY7EHG8bdpLZKZFEes
 id: node.localgov_page.default
 targetEntityType: node
 bundle: localgov_page
 mode: default
 content:
   localgov_page_banner:
-    type: media_library_widget
-    weight: 1
+    type: entity_reference_paragraphs
+    weight: 0
     region: content
     settings:
-      media_types: {  }
+      title: Banner
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
     third_party_settings: {  }
   localgov_page_content:
     type: layout_paragraphs
@@ -32,7 +38,7 @@ content:
       require_layouts: 1
     third_party_settings: {  }
   localgov_page_summary:
-    type: text_textarea
+    type: string_textarea
     weight: 2
     region: content
     settings:
@@ -41,7 +47,7 @@ content:
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: 1
     region: content
     settings:
       size: 60
