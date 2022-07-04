@@ -9,8 +9,6 @@ dependencies:
   module:
     - layout_paragraphs
     - paragraphs
-_core:
-  default_config_hash: 5n68a59XgYB8X6k6JgpGhPsD8RY7EHG8bdpLZKZFEes
 id: node.localgov_page.default
 targetEntityType: node
 bundle: localgov_page
