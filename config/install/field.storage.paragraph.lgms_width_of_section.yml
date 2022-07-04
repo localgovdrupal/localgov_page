@@ -19,6 +19,9 @@ settings:
     -
       value: contained-content
       label: 'Same width as content area'
+    -
+      value: contained-breakout
+      label: 'Slightly wider than the content area'
   allowed_values_function: ''
 module: options
 locked: false
