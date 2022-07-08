@@ -4,7 +4,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.full
     - field.field.node.localgov_page.localgov_page_banner
-    - field.field.node.localgov_page.localgov_page_content
+    - field.field.node.localgov_page.localgov_paragraph_content
     - field.field.node.localgov_page.localgov_page_summary
     - node.type.localgov_page
   module:
@@ -27,5 +27,5 @@ content:
     region: content
 hidden:
   links: true
-  localgov_page_content: true
+  localgov_paragraph_content: true
   localgov_page_summary: true

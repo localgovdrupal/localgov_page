@@ -4,7 +4,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.search_index
     - field.field.node.localgov_page.localgov_page_banner
-    - field.field.node.localgov_page.localgov_page_content
+    - field.field.node.localgov_page.localgov_paragraph_content
     - field.field.node.localgov_page.localgov_page_summary
     - node.type.localgov_page
   module:
@@ -18,7 +18,7 @@ targetEntityType: node
 bundle: localgov_page
 mode: search_index
 content:
-  localgov_page_content:
+  localgov_paragraph_content:
     type: layout_paragraphs
     label: hidden
     settings:
