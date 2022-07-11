@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.localgov_page.localgov_page_banner
-    - field.field.node.localgov_page.localgov_page_content
+    - field.field.node.localgov_page.localgov_paragraph_content
     - field.field.node.localgov_page.localgov_page_summary
     - node.type.localgov_page
   module:
@@ -26,7 +26,7 @@ content:
       form_display_mode: default
       default_paragraph_type: _none
     third_party_settings: {  }
-  localgov_page_content:
+  localgov_paragraph_content:
     type: layout_paragraphs
     weight: 3
     region: content
