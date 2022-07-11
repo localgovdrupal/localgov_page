@@ -37,7 +37,8 @@ class LocalGovPageTest extends BrowserTestBase {
   protected static $modules = [
     'field_ui',
     'localgov_page',
-    ];
+    'localgov_paragraphs_layout',
+  ];
 
   /**
    * {@inheritdoc}
