@@ -3,26 +3,30 @@ status: true
 dependencies:
   config:
     - field.field.node.localgov_page.localgov_page_banner
-    - field.field.node.localgov_page.localgov_page_content
+    - field.field.node.localgov_page.localgov_paragraph_content
     - field.field.node.localgov_page.localgov_page_summary
     - node.type.localgov_page
   module:
     - layout_paragraphs
-    - media_library
-    - path
+    - paragraphs
 id: node.localgov_page.default
 targetEntityType: node
 bundle: localgov_page
 mode: default
 content:
   localgov_page_banner:
-    type: media_library_widget
-    weight: 1
+    type: entity_reference_paragraphs
+    weight: 0
     region: content
     settings:
-      media_types: {  }
+      title: Banner
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
     third_party_settings: {  }
-  localgov_page_content:
+  localgov_paragraph_content:
     type: layout_paragraphs
     weight: 3
     region: content
@@ -47,7 +51,7 @@ content:
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: 1
     region: content
     settings:
       size: 60

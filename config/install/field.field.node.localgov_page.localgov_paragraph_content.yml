@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.localgov_page_content
+    - field.storage.node.localgov_paragraph_content
     - node.type.localgov_page
     - paragraphs.paragraphs_type.localgov_accordion
     - paragraphs.paragraphs_type.localgov_call_out_box
@@ -18,8 +18,8 @@ dependencies:
     - paragraphs.paragraphs_type.localgov_video
   module:
     - entity_reference_revisions
-id: node.localgov_page.localgov_page_content
-field_name: localgov_page_content
+id: node.localgov_page.localgov_paragraph_content
+field_name: localgov_paragraph_content
 entity_type: node
 bundle: localgov_page
 label: Content
