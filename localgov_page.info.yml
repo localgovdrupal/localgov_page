@@ -18,4 +18,3 @@ dependencies:
   - localgov_paragraphs:localgov_paragraphs
   - localgov_paragraphs:localgov_paragraphs_layout
   - localgov_subsites_paragraphs:localgov_subsites_paragraphs
-  - responsive_preview:responsive_preview
