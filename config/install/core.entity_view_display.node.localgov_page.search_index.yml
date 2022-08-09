@@ -11,8 +11,6 @@ dependencies:
     - layout_paragraphs
     - text
     - user
-_core:
-  default_config_hash: PmZuFJ6DVMQr6M6OkBLh1vQFe967laJikUKLdYdGHQY
 id: node.localgov_page.search_index
 targetEntityType: node
 bundle: localgov_page
@@ -23,7 +21,6 @@ content:
     label: hidden
     settings:
       view_mode: default
-      link: false
     third_party_settings: {  }
     weight: 1
     region: content

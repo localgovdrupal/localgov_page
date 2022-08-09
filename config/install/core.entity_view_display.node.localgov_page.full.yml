@@ -9,8 +9,6 @@ dependencies:
     - node.type.localgov_page
   module:
     - user
-_core:
-  default_config_hash: Ck5AcE4gmS8FKnv2NMPpUVIm84HwTFk-SuMcLsW3ShA
 id: node.localgov_page.full
 targetEntityType: node
 bundle: localgov_page

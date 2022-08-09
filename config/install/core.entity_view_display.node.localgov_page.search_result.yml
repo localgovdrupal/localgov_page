@@ -10,8 +10,6 @@ dependencies:
   module:
     - text
     - user
-_core:
-  default_config_hash: eyU0HrePPXqzLCfY70h0FQ2Ppqhcs2__Kq77QE14Ll8
 id: node.localgov_page.search_result
 targetEntityType: node
 bundle: localgov_page
