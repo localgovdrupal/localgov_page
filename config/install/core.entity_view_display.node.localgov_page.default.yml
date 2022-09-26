@@ -2,13 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.localgov_page.localgov_hide_summary
     - field.field.node.localgov_page.localgov_page_banner
-    - field.field.node.localgov_page.localgov_paragraph_content
     - field.field.node.localgov_page.localgov_page_summary
+    - field.field.node.localgov_page.localgov_paragraph_content
     - node.type.localgov_page
   module:
     - field_group
     - layout_paragraphs
+    - paragraphs
     - user
 third_party_settings:
   field_group:
@@ -18,7 +20,7 @@ third_party_settings:
       label: 'Page Top'
       parent_name: ''
       region: content
-      weight: 2
+      weight: 1
       format_type: html_element
       format_settings:
         classes: full__page-top
@@ -64,14 +66,6 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  localgov_paragraph_content:
-    type: layout_paragraphs
-    label: hidden
-    settings:
-      view_mode: default
-    third_party_settings: {  }
-    weight: 3
-    region: content
   localgov_page_summary:
     type: basic_string
     label: hidden
@@ -79,5 +73,15 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
+  localgov_paragraph_content:
+    type: layout_paragraphs
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
 hidden:
   links: true
+  localgov_hide_summary: true

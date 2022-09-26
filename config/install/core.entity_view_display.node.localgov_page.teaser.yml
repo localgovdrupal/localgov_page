@@ -3,9 +3,10 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.localgov_page.localgov_hide_summary
     - field.field.node.localgov_page.localgov_page_banner
-    - field.field.node.localgov_page.localgov_paragraph_content
     - field.field.node.localgov_page.localgov_page_summary
+    - field.field.node.localgov_page.localgov_paragraph_content
     - node.type.localgov_page
   module:
     - text
@@ -24,5 +25,6 @@ content:
     region: content
 hidden:
   links: true
+  localgov_hide_summary: true
   localgov_page_banner: true
   localgov_paragraph_content: true
