@@ -37,6 +37,7 @@ class LocalGovPageTest extends BrowserTestBase {
   protected static $modules = [
     'field_ui',
     'localgov_page',
+    'localgov_paragraphs_layout',
   ];
 
   /**
@@ -60,7 +61,7 @@ class LocalGovPageTest extends BrowserTestBase {
     $this->drupalGet('/admin/structure/types/manage/localgov_page/fields');
     $this->assertSession()->statusCodeEquals(200);
     $this->assertSession()->pageTextContains('localgov_page_banner');
-    $this->assertSession()->pageTextContains('localgov_page_content');
+    $this->assertSession()->pageTextContains('localgov_paragraph_content');
     $this->assertSession()->pageTextContains('localgov_page_summary');
 
     // Test fields display.

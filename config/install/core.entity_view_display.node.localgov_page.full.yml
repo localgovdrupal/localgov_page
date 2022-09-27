@@ -3,14 +3,13 @@ status: false
 dependencies:
   config:
     - core.entity_view_mode.node.full
+    - field.field.node.localgov_page.localgov_hide_summary
     - field.field.node.localgov_page.localgov_page_banner
-    - field.field.node.localgov_page.localgov_page_content
     - field.field.node.localgov_page.localgov_page_summary
+    - field.field.node.localgov_page.localgov_paragraph_content
     - node.type.localgov_page
   module:
     - user
-_core:
-  default_config_hash: Ck5AcE4gmS8FKnv2NMPpUVIm84HwTFk-SuMcLsW3ShA
 id: node.localgov_page.full
 targetEntityType: node
 bundle: localgov_page
@@ -27,5 +26,6 @@ content:
     region: content
 hidden:
   links: true
-  localgov_page_content: true
+  localgov_hide_summary: true
   localgov_page_summary: true
+  localgov_paragraph_content: true
