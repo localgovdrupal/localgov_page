@@ -6,7 +6,6 @@
     "license": "GPL-2.0-or-later",
     "minimum-stability": "dev",
     "require": {
-        "drupal/layout_paragraphs": "^1.0",
         "localgovdrupal/localgov_core": "^2.0",
         "localgovdrupal/localgov_paragraphs": "^2.0"
     },
