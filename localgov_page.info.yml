@@ -2,7 +2,7 @@ name: LocalGov Page
 description: Page content type that allows the building of rich content using Paragraphs.
 package: LocalGov Drupal
 type: module
-core_version_requirement: ^9
+core_version_requirement: ^9 || v10
 
 dependencies:
   - drupal:field
