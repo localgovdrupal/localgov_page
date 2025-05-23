@@ -55,7 +55,7 @@ class LocalGovPageTest extends BrowserTestBase {
   /**
    * Test fields on page.
    */
-  public function testPageFields() {
+  public function testPageFields(): void {
 
     // Check all fields exist.
     $this->drupalGet('/admin/structure/types/manage/localgov_page/fields');
